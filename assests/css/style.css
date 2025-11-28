@@ -1,0 +1,105 @@
+ 
+
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background: #f7f9fb;
+  color: #222;
+  padding: 20px;
+}
+
+/* Navigation */
+.navbar {
+  background: #0b6fb0;
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 8px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+.navbar a:hover { background: rgba(255,255,255,0.12); }
+
+/* Page container */
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 18px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(10,20,30,0.06);
+}
+
+/* Headings */
+h1 { font-size: 28px; color: #0b3f66; margin-bottom: 8px; }
+h2 { font-size: 20px; color: #0b3f66; margin: 12px 0; }
+
+/* Intro paragraph */
+.lead { margin-bottom: 16px; color: #333; }
+
+/* Lists */
+.services-list ul,
+.staff-list ul { margin-left: 20px; margin-bottom: 12px; }
+
+/* Contact ordered list */
+.contact-ol { margin-left: 20px; margin-bottom: 12px; }
+
+/* Departments table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+th, td {
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #e6eef6;
+}
+th { background: #f1f8ff; }
+
+/* Form styling */
+form { margin-top: 12px; }
+.form-row { display: flex; gap: 12px; margin-bottom: 12px; flex-wrap: wrap; }
+.form-row .field { flex: 1 1 220px; display: flex; flex-direction: column; }
+label { font-weight: 600; margin-bottom: 6px; font-size: 14px; color: #08324a; }
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+select,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccdce8;
+  border-radius: 6px;
+  font-size: 14px;
+  background: #fff;
+}
+textarea { min-height: 100px; resize: vertical; }
+input[type="submit"] {
+  background: #0b6fb0;
+  color: #fff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 700;
+}
+input[type="submit"]:hover { opacity: 0.95; }
+
+/* Footer */
+.footer { margin-top: 18px; padding-top: 12px; border-top: 1px solid #e6eef6; color: #666; font-size: 14px; }
+
+/* Responsive */
+@media (max-width: 640px) {
+  .navbar { flex-direction: column; align-items: flex-start; }
+  .form-row { flex-direction: column; }
+}

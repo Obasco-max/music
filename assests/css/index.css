@@ -1,0 +1,70 @@
+body {
+background-image: url(../Images/deadpool--15858.jpg);
+background-size: 150PX ;
+background-repeat: no-repeat;
+background-position: top right;
+background-attachment: fixed;
+font-family: "Happy Monkey", system-ui;
+}
+
+
+h1{
+    text-align: center;
+    border: 15px solid blueviolet ;
+    border-bottom-color: aqua;
+  margin-top: 100px;
+  margin-bottom: 250px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+  height: 50px;
+  background-color:#aa123f;
+  outline-style: dotted;
+  outline-color: #aa123f;
+  outline-offset: 20px;
+}
+ h2{
+    border: 5px dotted blanchedalmond;
+    margin: 2opx 30px  80px;
+    text-decoration: dotted;
+    text-transform: uppercase;
+    text-indent: 50px   ;
+    text-shadow: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline;
+ }
+ div{
+    border: 10px double greenyellow;
+    border-radius: 35px;
+    margin: 100px 60px;
+     padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+ }
+  p{
+    border: dotted blueviolet;
+    margin-bottom: inherit;
+    padding-left: inherit;
+    font-style: oblique;
+     display: inline;
+  }
+  a:link{
+    background-color: yellow;
+  }
+  table, th,td{
+    border: 1px solid gray;
+  }
+  td{
+    text-align: center;
+  }
+  th{
+    text-align: center; color: #aa123f;
+    float: left;
+  }
+  img{
+    opacity: 0.1;
+  }
+  img:hover{
+    opacity: 1.0;
+  }
+  
